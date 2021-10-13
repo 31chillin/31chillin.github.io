@@ -1,6 +1,6 @@
 module.exports = {
   title: `31chillin.github.io`,
-  description: `줌코딩의 개발일기`,
+  description: `31chillin dev note`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://31chillin.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
