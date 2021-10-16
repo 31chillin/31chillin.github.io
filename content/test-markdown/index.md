@@ -4,8 +4,24 @@ title: 마크다운 테스트
 date: '2021-10-14 20:00:00'
 author: min-9
 tags: markdown
-categories: 테스트
+categories: 마크다운
 ---
+
+## 글을 시작하기에 앞서
+
+블로그에 게시된 모든 글은 마크다운 형식으로 작성되었습니다.  
+마크다운을 사용하면 텍스트, 코드, 이미지 등을 손 쉽게 회면에 나타낼 수 있고,  
+문법 자체가 어렵지 않기 때문에 쉽고 빠르게 배워 사용할 수 있다는 점에서 매우 매력적인 언어라고 생각함.
+
+### Markdown이란?
+
+마크다운(markdown)은 일반 텍스트 기반의 경량 마크업 언어다. 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다. HTML과 리치 텍스트(RTF) 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트웨어와 함께 배포되는 README 파일이나 온라인 게시물 등에 많이 사용된다.
+
+<br>
+
+### Markdown의 역사
+
+존 그루버는 2004년에 문법 면에서 에런 스워츠와 중대한 협업을 통해 마크다운 언어를 만들었으며, 사람들이 읽기 쉽고 쓰기 쉬운 플레인 텍스트 포맷을 사용하여 쓸 수 있으면서 구조적으로 유효한 XHTML(또는 HTML)로 선택적 변환이 가능하게 하는 것이 목표이다.
 
 ## C / C++
 
@@ -133,6 +149,46 @@ const LinkedList = () => {
   };
   return list;
 };
+```
+
+<br>
+
+## Kotlin
+
+```kotlin
+import java.util.Scanner
+
+fun main(args: Array<String>) {
+  var i: Int = 1
+  var value: Int
+  var mList = mutableListOf<Int>(0)
+  val scan: Scanner = Scanner(System.`in`)
+  print("size is ")
+  val size = scan.nextInt()
+
+  mList[0] = (1 + Math.random() * size).toInt()
+
+  while (i < size) {
+    value = (1 + Math.random() * size).toInt()
+
+    if (duple(mList, value)) {
+      mList.add(value)
+      i++
+    } else {
+      continue
+    }
+  }
+  println(mList)
+}
+
+fun duple(mList: MutableList<Int>, value: Int): Boolean {
+  for (item in mList) {
+    if (item == value) {
+      return false
+    }
+  }
+  return true
+}
 ```
 
 <br>

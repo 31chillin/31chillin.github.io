@@ -20,7 +20,7 @@ module.exports = {
     social: {
       github: `https://github.com/31chillin`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      email: `mg07315@gmail.com`, // `zoomkoding@gmail.com`,
     },
   },
 
