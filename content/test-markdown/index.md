@@ -23,7 +23,11 @@ categories: 마크다운
 
 존 그루버는 2004년에 문법 면에서 에런 스워츠와 중대한 협업을 통해 마크다운 언어를 만들었으며, 사람들이 읽기 쉽고 쓰기 쉬운 플레인 텍스트 포맷을 사용하여 쓸 수 있으면서 구조적으로 유효한 XHTML(또는 HTML)로 선택적 변환이 가능하게 하는 것이 목표이다.
 
-## C / C++
+<br>
+
+## 코드 예시
+
+### C / C++
 
 ```cpp
 #include <iostream>
@@ -54,7 +58,7 @@ int main() {
 
 <br>
 
-## Java
+### Java
 
 ```java
 class Lamp {
@@ -74,7 +78,7 @@ class Lamp {
 
 <br>
 
-## Python
+### Python
 
 ```python
 class Node:
@@ -101,7 +105,7 @@ class LinkedList:
 
 <br>
 
-## JavaScript
+### JavaScript
 
 ```jsx
 const Node = (value) => {
@@ -153,7 +157,7 @@ const LinkedList = () => {
 
 <br>
 
-## Kotlin
+### Kotlin
 
 ```kotlin
 import java.util.Scanner
@@ -193,7 +197,7 @@ fun duple(mList: MutableList<Int>, value: Int): Boolean {
 
 <br>
 
-## Go
+### Go
 
 ```go
 package main
