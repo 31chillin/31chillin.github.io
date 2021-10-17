@@ -17,7 +17,9 @@ categories: 마크다운
 
 ### Markdown이란?
 
-![Markdown](./test-markdown-1.png)
+[![Markdown](./test-markdown-1.png)](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+**<p align="center" style="font-size: 16px; padding-bottom: 8px;">↑ Click More ↑</p>**
+
 마크다운(markdown)은 일반 텍스트 기반의 경량 마크업 언어다. 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다. HTML과 리치 텍스트(RTF) 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트웨어와 함께 배포되는 README 파일이나 온라인 게시물 등에 많이 사용된다.
 
 <br>
