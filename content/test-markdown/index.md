@@ -13,8 +13,11 @@ categories: 마크다운
 마크다운을 사용하면 텍스트, 코드, 이미지 등을 손 쉽게 회면에 나타낼 수 있고,  
 문법 자체가 어렵지 않기 때문에 쉽고 빠르게 배워 사용할 수 있다는 점에서 매우 매력적인 언어라고 생각함.
 
+<br>
+
 ### Markdown이란?
 
+![Markdown](./test-markdown-1.png)
 마크다운(markdown)은 일반 텍스트 기반의 경량 마크업 언어다. 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다. HTML과 리치 텍스트(RTF) 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트웨어와 함께 배포되는 README 파일이나 온라인 게시물 등에 많이 사용된다.
 
 <br>
@@ -25,7 +28,7 @@ categories: 마크다운
 
 <br>
 
-## 코드 예시
+## 언어별 예시 코드
 
 ### C / C++
 
@@ -202,39 +205,37 @@ fun duple(mList: MutableList<Int>, value: Int): Boolean {
 ```go
 package main
 import (
- "fmt"
+  "fmt"
 )
-type width int //user defined type
+type width int // user defined type
 type Mobile struct {
- brand string
- model string
- price int
+  brand string
+  model string
+  price int
 }
-func (mob Mobile) display() string { //func associated with Mobile
- mob.brand = "Xiomi"
- return mob.brand
+func (mob Mobile) display() string { // func associated with Mobile
+  mob.brand = "Xiomi"
+  return mob.brand
 }
-func (mob *Mobile) show() string { //func associated with Mobile
- mob.brand = "Xiomi"
- return mob.brand
+func (mob *Mobile) show() string { // func associated with Mobile
+  mob.brand = "Xiomi"
+  return mob.brand
 }
 func main() {
- var height width
- fmt.Println(height)
- m := Mobile{}
- fmt.Println(m) //Default values inside struct{" " 0}
- var mob Mobile //Instance creation using var
- fmt.Println(mob)
- mobs := new(Mobile)
- fmt.Println(mobs)
- phone := Mobile{"Samsung", "Galaxy", 24500} //Struct initialization
- fmt.Println("Before Change:", phone)
- fmt.Println("Function Call", phone.display()) // Xiomi
- fmt.Println("After Change:", phone) //still old values are coming
- {"Samsung","Galaxy",24500}
- fmt.Println("Function Call:", phone.show()) //calling show()
- fmt.Println("After Change:", phone) //Here changed values will
- reflect
+  var height width
+  fmt.Println(height)
+  m := Mobile{}
+  fmt.Println(m) // Default values inside struct{" ", 0}
+  var mob Mobile // Instance creation using var
+  fmt.Println(mob)
+  mobs := new(Mobile)
+  fmt.Println(mobs)
+  phone := Mobile{"Samsung", "Galaxy", 24500} // Struct initialization
+  fmt.Println("Before Change:", phone)
+  fmt.Println("Function Call", phone.display()) // Xiomi
+  fmt.Println("After Change:", phone) // still old values are coming
+  fmt.Println("Function Call:", phone.show()) //calling show()
+  fmt.Println("After Change:", phone) //Here changed values will
 }
 ```
 
