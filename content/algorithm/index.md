@@ -77,7 +77,7 @@ categories: 알고리즘
 가장 단순한 알고리즘 가운데 하나는 임의로 나열된 숫자들 가운데 가장 큰 수를 찾는 것이다. 다음은 목록 안에 있는 모든 수를 살펴보는 알고리즘이다.
 
 ```
-알고리즘 LargestNumber
+LargestNumber Algorithm
     Input: A list of numbers L.
     Output: The largest number in the list L.
 ```
