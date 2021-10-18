@@ -1,12 +1,12 @@
 module.exports = {
   title: `나의 개발 블로그`,
-  description: `31chillin dev note`,
+  description: `7INDAYS PAGE`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://31chillin.github.io`,
+  siteUrl: `https://7indays.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: `31chillin/blog-comments`, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `7indays/blog-comments`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
   ga: 'G-G6CYRC3RQ1', // Google Analytics Tracking ID
@@ -18,7 +18,7 @@ module.exports = {
       thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: `https://github.com/31chillin`, // `https://github.com/zoomKoding`,
+      github: `https://github.com/7indays`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
       email: `mg07315@gmail.com`, // `zoomkoding@gmail.com`,
     },
